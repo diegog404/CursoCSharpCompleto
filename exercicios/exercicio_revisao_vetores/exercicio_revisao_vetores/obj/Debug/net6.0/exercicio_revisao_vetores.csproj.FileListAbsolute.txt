@@ -1,0 +1,15 @@
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\bin\Debug\net6.0\exercicio_revisao_vetores.exe
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\bin\Debug\net6.0\exercicio_revisao_vetores.deps.json
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\bin\Debug\net6.0\exercicio_revisao_vetores.runtimeconfig.json
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\bin\Debug\net6.0\exercicio_revisao_vetores.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\bin\Debug\net6.0\exercicio_revisao_vetores.pdb
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.csproj.AssemblyReference.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.AssemblyInfoInputs.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.AssemblyInfo.cs
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.csproj.CoreCompileInputs.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\refint\exercicio_revisao_vetores.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.pdb
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\exercicio_revisao_vetores.genruntimeconfig.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_vetores\exercicio_revisao_vetores\obj\Debug\net6.0\ref\exercicio_revisao_vetores.dll
