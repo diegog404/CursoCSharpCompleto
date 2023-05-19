@@ -1,0 +1,15 @@
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\bin\Debug\net6.0\exercicio_listas.exe
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\bin\Debug\net6.0\exercicio_listas.deps.json
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\bin\Debug\net6.0\exercicio_listas.runtimeconfig.json
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\bin\Debug\net6.0\exercicio_listas.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\bin\Debug\net6.0\exercicio_listas.pdb
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.csproj.AssemblyReference.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.AssemblyInfoInputs.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.AssemblyInfo.cs
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.csproj.CoreCompileInputs.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\refint\exercicio_listas.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.pdb
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\exercicio_listas.genruntimeconfig.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_listas\exercicio_listas\obj\Debug\net6.0\ref\exercicio_listas.dll
