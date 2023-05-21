@@ -1,0 +1,15 @@
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\bin\Debug\net6.0\exercicio_revisao_matrizes.exe
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\bin\Debug\net6.0\exercicio_revisao_matrizes.deps.json
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\bin\Debug\net6.0\exercicio_revisao_matrizes.runtimeconfig.json
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\bin\Debug\net6.0\exercicio_revisao_matrizes.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\bin\Debug\net6.0\exercicio_revisao_matrizes.pdb
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.csproj.AssemblyReference.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.AssemblyInfoInputs.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.AssemblyInfo.cs
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.csproj.CoreCompileInputs.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\refint\exercicio_revisao_matrizes.dll
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.pdb
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\exercicio_revisao_matrizes.genruntimeconfig.cache
+C:\CursoC#Completo\Projetos\exercicios\exercicio_revisao_matrizes\exercicio_revisao_matrizes\obj\Debug\net6.0\ref\exercicio_revisao_matrizes.dll

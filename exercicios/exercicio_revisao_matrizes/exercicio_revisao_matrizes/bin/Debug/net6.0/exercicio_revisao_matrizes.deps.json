@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "exercicio_revisao_matrizes/1.0.0": {
+        "runtime": {
+          "exercicio_revisao_matrizes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exercicio_revisao_matrizes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
