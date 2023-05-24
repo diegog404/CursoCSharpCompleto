@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revisao_conceitos_01", "revisao_conceitos_01\revisao_conceitos_01.csproj", "{5DACA928-85E6-4651-B3FF-A5B2B287A01B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DACA928-85E6-4651-B3FF-A5B2B287A01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DACA928-85E6-4651-B3FF-A5B2B287A01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DACA928-85E6-4651-B3FF-A5B2B287A01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DACA928-85E6-4651-B3FF-A5B2B287A01B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D847FC11-1A1A-450A-9979-FC3323086F98}
+	EndGlobalSection
+EndGlobal
