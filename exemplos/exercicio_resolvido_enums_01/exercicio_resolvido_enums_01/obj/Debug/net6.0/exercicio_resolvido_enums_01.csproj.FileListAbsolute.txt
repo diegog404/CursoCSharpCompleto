@@ -1,0 +1,15 @@
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\bin\Debug\net6.0\exercicio_resolvido_enums_01.exe
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\bin\Debug\net6.0\exercicio_resolvido_enums_01.deps.json
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\bin\Debug\net6.0\exercicio_resolvido_enums_01.runtimeconfig.json
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\bin\Debug\net6.0\exercicio_resolvido_enums_01.dll
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\bin\Debug\net6.0\exercicio_resolvido_enums_01.pdb
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.csproj.AssemblyReference.cache
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.AssemblyInfoInputs.cache
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.AssemblyInfo.cs
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.csproj.CoreCompileInputs.cache
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.dll
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\refint\exercicio_resolvido_enums_01.dll
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.pdb
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\exercicio_resolvido_enums_01.genruntimeconfig.cache
+C:\CursoC#Completo\Projetos\exemplos\exercicio_resolvido_enums_01\exercicio_resolvido_enums_01\obj\Debug\net6.0\ref\exercicio_resolvido_enums_01.dll
