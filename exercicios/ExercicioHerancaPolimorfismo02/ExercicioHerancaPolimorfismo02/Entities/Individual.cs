@@ -15,25 +15,16 @@ namespace ExercicioHerancaPolimorfismo02.Entities
             HealthExpediture = healthExpediture;
         }
 
-        public override double TaxesPaid(double anualIncome)
+        public override double TaxesPaid()
         {
-            double tax;
-
             if(AnualIncome < 20000.00)
             {
-                tax =+ anualIncome * 0.15;
+                return AnualIncome * 0.15 - HealthExpediture * 0.50;
             }
             else
             {
-                tax = +anualIncome * 0.25;
+                return AnualIncome * 0.25 - HealthExpediture * 0.50;
             }
-
-            if(HealthExpediture > 0)
-            {
-                tax = -HealthExpediture * 0.50;
-            }
-
-            return tax;
         }
     }
 }

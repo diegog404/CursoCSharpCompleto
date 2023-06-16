@@ -17,6 +17,6 @@ namespace ExercicioHerancaPolimorfismo02.Entities
             AnualIncome = anualIncome;
         }
 
-        public abstract double TaxesPaid(double anualIncome);
+        public abstract double TaxesPaid();
     }
 }
