@@ -1,32 +1,34 @@
 ﻿using ExercicioClasses01;
 
-Pessoa p1, p2;
+Pessoa a, b;
 
-p1 = new Pessoa();
-p2 = new Pessoa();
+a = new Pessoa();
+b = new Pessoa();
 
-Console.WriteLine("Dados da primeira pessoa:");
-
-Console.Write("Nome: ");
-p1.Nome = Console.ReadLine();
-
-Console.Write("Idade: ");
-p1.Idade = int.Parse(Console.ReadLine());
-
-
-Console.WriteLine("Dados da segunda pessoa:");
+Console.WriteLine("Insira os dados da primeira pessoa:");
 
 Console.Write("Nome: ");
-p2.Nome = Console.ReadLine();
-
+a.Nome = Console.ReadLine();
 Console.Write("Idade: ");
-p2.Idade = int.Parse(Console.ReadLine());
+a.Idade = int.Parse(Console.ReadLine());
 
-if (p1.Idade > p2.Idade)
+Console.WriteLine();
+
+Console.WriteLine("Insira os dados da segunda pessoa:");
+
+Console.Write("Nome: ");
+b.Nome = Console.ReadLine();
+Console.Write("Idade: ");
+b.Idade = int.Parse(Console.ReadLine());
+
+Console.WriteLine();
+
+if(a.Idade > b.Idade)
 {
-    Console.WriteLine("Pessoa mais velha: " + p1.Nome);
+    Console.WriteLine("Pessoa mais velha: " + a.Nome);
 }
 else
 {
-    Console.WriteLine("Pessoa mais velha: " + p2.Nome);
+    Console.WriteLine("Pessoa mais velha: " + b.Nome);
 }
+

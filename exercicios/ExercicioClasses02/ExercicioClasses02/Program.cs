@@ -1,28 +1,30 @@
 ﻿using ExercicioClasses02;
 using System.Globalization;
 
-Funcionario f1, f2;
+Funcionario a, b;
 
-f1 = new Funcionario();
-f2 = new Funcionario();
+a = new Funcionario();
+b = new Funcionario();
 
-Console.WriteLine("Dados do primeiro funcionário:");
-
-Console.Write("Nome: ");
-f1.Nome = Console.ReadLine();
-
-Console.Write("Salário: ");
-f1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-
-Console.WriteLine("Dados do segundo funcionário:");
+Console.WriteLine("Insira os dados do primeiro funcionário:");
 
 Console.Write("Nome: ");
-f2.Nome = Console.ReadLine();
+a.Nome = Console.ReadLine();
 
 Console.Write("Salário: ");
-f2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+a.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-double salarioMedio = (f1.Salario + f2.Salario) / 2.0;
+Console.WriteLine();
 
+Console.WriteLine("Insira os dados do segundo funcionário:");
+
+Console.Write("Nome: ");
+b.Nome = Console.ReadLine();
+
+Console.Write("Salário: ");
+b.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.WriteLine();
+
+double salarioMedio = (a.Salario + b.Salario) / 2.0;
 Console.WriteLine("Salário médio = " + salarioMedio.ToString("F2", CultureInfo.InvariantCulture));
