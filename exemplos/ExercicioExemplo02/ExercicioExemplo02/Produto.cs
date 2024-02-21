@@ -13,26 +13,26 @@ namespace ExercicioExemplo02
         public double Preco;
         public int Quantidade;
 
-        public double ValorTotalEmEstoque()
+        public double ValorTotalEstoque()
         {
             return Preco * Quantidade;
         }
 
-        public void AdicionarProdutos(int quantidade)
+        public void AdicionarProdutos(int quantity)
         {
-            Quantidade = Quantidade + quantidade;
+            Quantidade = Quantidade + quantity;
         }
 
-        public void RemoverProdutos(int quantidade)
+        public void RemoverProdutos(int quantity)
         {
-            Quantidade = Quantidade - quantidade;
+            Quantidade = Quantidade - quantity;
         }
 
         public override string ToString()
         {
-            return Nome + ", $" + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", "
-                + Quantidade + " unidades, Total: $ "
-                + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
+            return Nome + ", $ " + Preco.ToString("F2", CultureInfo.InvariantCulture)
+                + ", " + Quantidade + 
+                " unidades, Total: $ " + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
