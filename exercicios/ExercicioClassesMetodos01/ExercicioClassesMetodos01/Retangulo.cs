@@ -18,12 +18,12 @@ namespace ExercicioClassesMetodos01
 
         public double Perimetro()
         {
-            return Largura * 2.0 + Altura * 2.0;
+            return Largura * 2 + Altura * 2;
         }
 
         public double Diagonal()
         {
-            return Math.Sqrt(Math.Pow(Largura, 2.0) + Math.Pow(Altura, 2.0));
+            return Math.Sqrt(Largura * Largura + Altura * Altura);
         }
     }
 }

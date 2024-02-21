@@ -1,24 +1,25 @@
 ﻿using ExercicioClassesMetodos02;
 using System.Globalization;
 
-Funcionario dados = new Funcionario();
+Funcionario f = new Funcionario();
 
 Console.Write("Nome: ");
-dados.Nome = Console.ReadLine();
+f.Nome = Console.ReadLine();
 
 Console.Write("Salário Bruto: ");
-dados.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+f.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 Console.Write("Imposto: ");
-dados.Imposto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+f.Imposto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 Console.WriteLine();
 
-Console.WriteLine("Funcionário: " + dados);
+Console.WriteLine("Funcionário: " + f);
 Console.WriteLine();
 
-Console.Write("Digite a porcentagem para aumentar o salário: ");
-double pct = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-dados.AumentarSalario(pct);
+Console.Write("Insira a porcentagem para aumentar o salário: ");
+double pcr = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+f.AumentarSalario(pcr);
 Console.WriteLine();
 
-Console.WriteLine("Dados atualizados: " + dados);
+Console.WriteLine("Dados atualizados: " + f);
+

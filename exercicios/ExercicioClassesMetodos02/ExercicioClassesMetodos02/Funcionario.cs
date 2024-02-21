@@ -12,7 +12,7 @@ namespace ExercicioClassesMetodos02
         public string Nome;
         public double SalarioBruto;
         public double Imposto;
-
+        
         public double SalarioLiquido()
         {
             return SalarioBruto - Imposto;
@@ -20,7 +20,7 @@ namespace ExercicioClassesMetodos02
 
         public void AumentarSalario(double porcentagem)
         {
-            SalarioBruto = SalarioBruto + (SalarioBruto * porcentagem) / 100.0;
+            SalarioBruto = SalarioBruto + (SalarioBruto * porcentagem / 100.0);
         }
 
         public override string ToString()
