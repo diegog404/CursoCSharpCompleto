@@ -10,19 +10,21 @@ namespace exercicio_construtores_encapsulamento_properties
 {
     internal class ContaBancaria
     {
-        public int NumeroConta { get; private set; }
+        public int Numero { get; private set; }
         public string Nome { get; set; }
         public double Saldo { get; private set; }
 
-        public ContaBancaria(int numeroConta, string nome) 
+        public ContaBancaria(int numero, string nome, double saldo)
         {
-            NumeroConta = numeroConta;
-            Nome = nome;        
+            Numero = numero;
+            Nome = nome;
+            Saldo = saldo;
         }
 
-        public ContaBancaria(int numeroConta, string nome, double depositoInicial) : this(numeroConta, nome)
+        public ContaBancaria(int numero, string nome)
         {
-            Deposito(depositoInicial);
+            Numero = numero;
+            Nome = nome;
         }
 
         public void Deposito(double quantidade)
@@ -32,12 +34,13 @@ namespace exercicio_construtores_encapsulamento_properties
 
         public void Saque(double quantidade)
         {
-            Saldo -= quantidade + 5.0;
+            Saldo = Saldo - quantidade - 5;
         }
 
         public override string ToString()
         {
-            return "Conta " + NumeroConta + ", Titular: " + Nome + ", Saldo: $ " + Saldo.ToString("F2", CultureInfo.InvariantCulture);
+            return "Conta: " + Numero + ", Titular: " + Nome + ", Saldo: $ "
+                + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
