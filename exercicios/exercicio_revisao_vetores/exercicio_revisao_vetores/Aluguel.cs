@@ -10,16 +10,18 @@ namespace exercicio_revisao_vetores
     {
         public string Nome { get; set; }
         public string Email { get; set; }
+        public int Quarto { get; set; }
 
-        public Aluguel(string nome, string email)
+        public Aluguel(string nome, string email, int quarto)
         {
             Nome = nome;
             Email = email;
+            Quarto = quarto;
         }
 
         public override string ToString()
         {
-            return Nome+ ",  " + Email;
+            return Quarto + ": " + Nome + ", " + Email;
         }
     }
 }
