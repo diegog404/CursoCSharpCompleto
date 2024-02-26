@@ -2,48 +2,48 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-Console.Write("How many employees will be registered? ");
-int n = int.Parse(Console.ReadLine());
-Console.WriteLine();
+Console.Write("Quantos empregados serão contratados? ");
+int N = int.Parse(Console.ReadLine());
 
-List<Employee> dados = new List<Employee>(n);
+List<Employee> employees = new List<Employee>();
 
-for(int i = 1; i <= n; i++)
+for(int i = 1; i <= N; i++)
 {
-    Console.WriteLine("Employee: #" + i);
+    Console.WriteLine();
+
+    Console.WriteLine($"Employee #{i}");
     Console.Write("Id: ");
     int id = int.Parse(Console.ReadLine());
 
     Console.Write("Name: ");
-    string name = Console.ReadLine();
+    string nome = Console.ReadLine();
 
-    Console.Write("Salary: ");
-    double salary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    Console.Write("Salario: ");
+    double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-    dados.Add(new Employee(id, name, salary));
-    Console.WriteLine();
+    employees.Add(new Employee(id, nome, salario));
 }
-
-Console.Write("Enter the employee id that will have salary increase: ");
-int searchId = int.Parse(Console.ReadLine());
 Console.WriteLine();
 
-Employee incSalary = dados.Find(x => x.Id == searchId);
+Console.Write("Entre com id do empregado que téra o salário aumentado: ");
+int idIndex = int.Parse(Console.ReadLine());
 
-if(incSalary != null)
+Employee emp = employees.Find(x => x.Id == idIndex);
+
+if(emp != null)
 {
-    Console.Write("Enter the percentage: ");
-    double percentage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-    incSalary.IncreseSalary(percentage);
+    Console.Write("Entre com a porcentagem: ");
+    double pcr = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    emp.AumentarSalario(pcr);
 }
 else
 {
-    Console.WriteLine("This id does not exists!");
+    Console.WriteLine("Esse Id não existe.");
 }
 Console.WriteLine();
 
-Console.WriteLine("Updated list of employees:");
-foreach(Employee obj in dados)
+Console.WriteLine("Lista de empregados atualizada:");
+foreach(Employee obj in employees)
 {
     Console.WriteLine(obj);
 }

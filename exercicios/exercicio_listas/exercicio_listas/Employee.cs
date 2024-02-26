@@ -9,25 +9,25 @@ namespace exercicio_listas
 {
     internal class Employee
     {
-        public int Id;
-        public string Name;
-        public double Salary;
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public double Salario { get; private set; }
 
-        public Employee(int id, string name, double salary)
+        public Employee(int id, string nome, double salario)
         {
             Id = id;
-            Name = name;
-            Salary = salary;
+            Nome = nome;
+            Salario = salario;
         }
 
-        public void IncreseSalary(double percentage)
+        public void AumentarSalario(double porcentagem)
         {
-            Salary = Salary + (Salary / 100) * percentage;
+            Salario = Salario + (Salario * porcentagem / 100);
         }
 
         public override string ToString()
         {
-            return Id + ", " + Name + ", " + Salary.ToString("F2", CultureInfo.InvariantCulture);
+            return Id + ", " + Nome + ", " + Salario.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
