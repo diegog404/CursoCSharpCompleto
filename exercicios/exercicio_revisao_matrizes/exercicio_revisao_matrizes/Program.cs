@@ -1,46 +1,45 @@
-﻿string[] dados = Console.ReadLine().Split(' ');
+﻿string[] numeros = Console.ReadLine().Split(' ');
 
-int M = int.Parse(dados[0]);
-int N = int.Parse(dados[1]);
+int n = int.Parse(numeros[0]);
+int m = int.Parse(numeros[1]);
 
-int[,] mat = new int[M,N];
+int[,] mat = new int[n, m];
 
-for (int i = 0;i < M; i++)
+for (int i = 0;i < n; i++)
 {
-    string[] s = Console.ReadLine().Split(' ');
+    string[] valores = Console.ReadLine().Split(' ');
 
-    for(int j = 0; j < N; j++)
+    for(int j = 0; j < m; j++)
     {
-        mat[i, j] = int.Parse(s[j]);
+        mat[i, j] = int.Parse(valores[j]);
     }
 }
+Console.WriteLine();
 
-int numero = int.Parse(Console.ReadLine());
+Console.Write("Digite o número: ");
+int number = int.Parse(Console.ReadLine());
 
-for(int i = 0; i < M; i++)
+for (int i = 0; i < n; i++)
 {
-    for(int j = 0; j < N; j++)
+    for(int j = 0; j < m; j++)
     {
-        if (mat[i, j] == numero)
+        if (mat[i, j] == number)
         {
             Console.WriteLine("Position " + i + "," + j + ":");
 
-            if (j > 0)
+            if(j > 0)
             {
                 Console.WriteLine("Left: " + mat[i, j - 1]);
             }
-            
-            if (j < N -1)
-            {
-                Console.WriteLine("Right: " + mat[i, j + 1]);
-            }        
-        
-            if (i > 0)
+            if(i> 0)
             {
                 Console.WriteLine("Up: " + mat[i - 1, j]);
             }
-
-            if (i < M - 1)
+            if(j < m - 1)
+            {
+                Console.WriteLine("Right: " + mat[i, j + 1]);
+            }
+            if(i < n - 1)
             {
                 Console.WriteLine("Down: " + mat[i + 1, j]);
             }
