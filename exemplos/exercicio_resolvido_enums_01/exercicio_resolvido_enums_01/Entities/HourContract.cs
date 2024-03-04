@@ -9,14 +9,11 @@ namespace exercicio_resolvido_enums_01.Entities
     internal class HourContract
     {
         public DateTime Date { get; set; }
-
         public double ValuePerHour { get; set; }
-
         public int Hours { get; set; }
 
         public HourContract()
         {
-
         }
 
         public HourContract(DateTime date, double valuePerHour, int hours)
@@ -26,9 +23,10 @@ namespace exercicio_resolvido_enums_01.Entities
             Hours = hours;
         }
 
+        //retorna o valor total de um contrato
         public double TotalValue()
         {
-            return ValuePerHour * Hours;
+            return Hours * ValuePerHour;
         }
     }
 }

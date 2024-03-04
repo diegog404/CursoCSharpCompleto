@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace exercicio_resolvido_enums_01.Entities.Enums
 {
-    internal enum WorkerLevel : int
-    {
+    enum WorkerLevel : int 
+    { 
         Junior = 0,
         MidLevel = 1,
         Senior = 2
-    }
+    
+    };
 }

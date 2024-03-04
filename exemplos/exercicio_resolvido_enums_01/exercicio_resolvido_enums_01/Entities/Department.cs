@@ -12,7 +12,6 @@ namespace exercicio_resolvido_enums_01.Entities
 
         public Department()
         {
-
         }
 
         public Department(string name)

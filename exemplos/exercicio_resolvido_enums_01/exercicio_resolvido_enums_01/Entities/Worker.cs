@@ -11,13 +11,13 @@ namespace exercicio_resolvido_enums_01.Entities
     {
         public string Name { get; set; }
         public WorkerLevel Level { get; set; }
+
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
         public List<HourContract> Contracts { get; set; } = new List<HourContract>();
 
         public Worker()
         {
-
         }
 
         public Worker(string name, WorkerLevel level, double baseSalary, Department department)
@@ -41,6 +41,7 @@ namespace exercicio_resolvido_enums_01.Entities
         public double Income(int year, int month)
         {
             double sum = BaseSalary;
+
             foreach(HourContract contract in Contracts)
             {
                 if(contract.Date.Year == year && contract.Date.Month == month)
@@ -48,7 +49,6 @@ namespace exercicio_resolvido_enums_01.Entities
                     sum += contract.TotalValue();
                 }
             }
-
             return sum;
         }
     }
