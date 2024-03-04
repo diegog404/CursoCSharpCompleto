@@ -10,10 +10,8 @@ Order order = new Order
 
 Console.WriteLine(order);
 
-//converte um tipo enumerado em string
+//conversao enum para string
 string txt = OrderStatus.PendingPayment.ToString();
-Console.WriteLine(txt);
 
-//converte um string para um tipo enumerado
+//conversao de string para enum
 OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
-Console.WriteLine(os);
