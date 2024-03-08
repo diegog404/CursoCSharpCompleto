@@ -52,7 +52,6 @@ namespace ExercicioEnumComposicao.Entities
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("ORDER SUMMARY:");
             sb.AppendLine("Order moment: " + Momment.ToString("dd/MM/yyyy HH:mm:ss"));
             sb.AppendLine("Order status: " + Status);
             sb.AppendLine("Client: " + Clients.Name + " (" + Clients.BirthDate.ToString("dd/MM/yyyy") + ") - " + Clients.Email);

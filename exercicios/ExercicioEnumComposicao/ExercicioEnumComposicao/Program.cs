@@ -6,7 +6,7 @@ using System.Xml.Linq;
 Console.WriteLine("Enter client data:");
 Console.WriteLine();
 
-Console.WriteLine("Name: ");
+Console.Write("Name: ");
 string name = Console.ReadLine();
 
 Console.Write("Email: ");
@@ -49,6 +49,7 @@ for(int i = 1; i <= n; i++)
     
     order.AddItem(orderItem);
 }
+Console.WriteLine();
 
 Console.WriteLine("ORDER SUMMARY:");
 Console.WriteLine(order);

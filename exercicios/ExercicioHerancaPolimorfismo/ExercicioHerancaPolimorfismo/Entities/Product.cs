@@ -14,7 +14,6 @@ namespace ExercicioHerancaPolimorfismo.Entities
 
         public Product()
         {
-
         }
 
         public Product(string name, double price)
@@ -26,6 +25,6 @@ namespace ExercicioHerancaPolimorfismo.Entities
         public virtual string PriceTag()
         {
             return Name + " $ " + Price.ToString("F2", CultureInfo.InvariantCulture);
-        }      
+        }
     }
 }

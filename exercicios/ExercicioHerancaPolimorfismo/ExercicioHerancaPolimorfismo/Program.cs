@@ -1,15 +1,17 @@
 ﻿using ExercicioHerancaPolimorfismo.Entities;
 using System.Globalization;
 
-List<Product> prod = new List<Product>();
+List<Product> products = new List<Product>();
 
 Console.Write("Enter the number of products: ");
-int N = int.Parse(Console.ReadLine());
-Console.WriteLine();
+int n = int.Parse(Console.ReadLine());
 
-for(int i = 1; i <= N; i++)
+for(int i = 1; i <= n; i++)
 {
+    Console.WriteLine();
+
     Console.WriteLine($"Product #{i} data:");
+    Console.WriteLine();
 
     Console.Write("Common, used or imported (c/u/i)? ");
     char resp = char.Parse(Console.ReadLine());
@@ -20,32 +22,32 @@ for(int i = 1; i <= N; i++)
     Console.Write("Price: ");
     double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-    if(resp == 'i')
+    if(resp == 'c')
+    {
+        products.Add(new Product(name, price));
+    }
+    else if (resp == 'i')
     {
         Console.Write("Customs fee: ");
         double customFee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        prod.Add(new ImportedProduct(name, price, customFee));
-    }
-    else if(resp == 'c')
-    {
-        prod.Add(new Product(name, price));
+        products.Add(new ImportedProduct(customFee, name, price));
     }
     else
     {
         Console.Write("Manufacture date (DD/MM/YYYY): ");
-        DateTime md = DateTime.Parse(Console.ReadLine());
+        DateTime manuDate = DateTime.Parse(Console.ReadLine());
 
-        prod.Add(new UsedProduct(name, price, md));
-    }
-
-    Console.WriteLine();
+        products.Add(new UsedProduct(manuDate, name, price));
+    }    
 }
+Console.WriteLine();
 
-Console.WriteLine("PRICE TAGS:");
+Console.WriteLine("PRICE TAGS");
+Console.WriteLine();
 
-foreach(Product product in prod)
+foreach (Product prod in products)
 {
-    Console.WriteLine(product.PriceTag());
+    Console.WriteLine(prod.PriceTag());
 }
 

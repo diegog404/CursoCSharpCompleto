@@ -9,22 +9,21 @@ namespace ExercicioHerancaPolimorfismo.Entities
 {
     internal class UsedProduct : Product
     {
-        public DateTime ManufactureDate { get; set; }
+        public DateTime ManufacturerDate { get; set; }
 
         public UsedProduct()
         {
-
         }
 
-        public UsedProduct(string name, double price, DateTime manufactureDate) : base(name, price)
+        public UsedProduct(DateTime manufacturerDate, string name, double price) : base (name, price)
         {
-            ManufactureDate = manufactureDate;
+            ManufacturerDate = manufacturerDate;
         }
 
         public override string PriceTag()
         {
             return Name + " (used) $ " + Price.ToString("F2", CultureInfo.InvariantCulture)
-                + " (Manufacture date: " + ManufactureDate.ToString("dd/MM/yyyy") + ")";
+                + " (Manufacture date: " + ManufacturerDate.ToString("dd/MM/yyyy") + ")"; 
         }
     }
 }
