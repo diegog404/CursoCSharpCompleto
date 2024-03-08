@@ -11,12 +11,16 @@ namespace ExercicioHerancaPolimorfismo02.Entities
         public string Name { get; set; }
         public double AnualIncome { get; set; }
 
-        public TaxPayer(string name, double anualIncome)
+        protected TaxPayer()
+        {
+        }
+
+        protected TaxPayer(string name, double anualIncome)
         {
             Name = name;
             AnualIncome = anualIncome;
         }
 
-        public abstract double TaxesPaid();
+        public abstract double Tax();
     }
 }

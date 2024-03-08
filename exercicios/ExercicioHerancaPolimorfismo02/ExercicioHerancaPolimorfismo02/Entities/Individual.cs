@@ -8,22 +8,26 @@ namespace ExercicioHerancaPolimorfismo02.Entities
 {
     internal class Individual : TaxPayer
     {
-        public double HealthExpediture { get; set; }
+        public double HealthExpenditures { get; set; }
 
-        public Individual(double healthExpediture, string name, double anualIncome) : base(name, anualIncome)
+        public Individual()
         {
-            HealthExpediture = healthExpediture;
         }
 
-        public override double TaxesPaid()
+        public Individual(double healthExpenditures, string name, double anualIncome) : base(name, anualIncome)
         {
-            if(AnualIncome < 20000.00)
+            HealthExpenditures = healthExpenditures;
+        }
+
+        public override double Tax()
+        {
+            if (AnualIncome < 20000.0)
             {
-                return AnualIncome * 0.15 - HealthExpediture * 0.50;
+                return AnualIncome * 0.15 - HealthExpenditures * 0.5;
             }
             else
             {
-                return AnualIncome * 0.25 - HealthExpediture * 0.50;
+                return AnualIncome * 0.25 - HealthExpenditures * 0.5;
             }
         }
     }

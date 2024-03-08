@@ -1,17 +1,19 @@
 ﻿using ExercicioHerancaPolimorfismo02.Entities;
 using System.Globalization;
 
+List<TaxPayer> payers = new List<TaxPayer>();
+
 Console.Write("Enter the number of tax payers: ");
 int n = int.Parse(Console.ReadLine());
-Console.WriteLine();
-
-List<TaxPayer> taxPayers= new List<TaxPayer>();
 
 for(int i = 1; i <= n; i++)
 {
-    Console.WriteLine($"Tax payer #{i} data:");
+    Console.WriteLine();
 
-    Console.Write("Individual or Company (i/c)? ");
+    Console.WriteLine($"Tax payer #{i} data:");
+    Console.WriteLine();
+
+    Console.Write("Individual or company (i/c)? ");
     char resp = char.Parse(Console.ReadLine());
 
     Console.Write("Name: ");
@@ -25,30 +27,28 @@ for(int i = 1; i <= n; i++)
         Console.Write("Health expeditures: ");
         double healthEx = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        taxPayers.Add(new Individual(healthEx, name, anualIncome));
+        payers.Add(new Individual(healthEx, name, anualIncome));
     }
     else
     {
         Console.Write("Number of employees: ");
-        int employeeNumber = int.Parse(Console.ReadLine());
+        int empCount = int.Parse(Console.ReadLine());
 
-        taxPayers.Add(new Company(employeeNumber, name, anualIncome));
+        payers.Add(new Company(empCount, name, anualIncome));
     }
-
-    Console.WriteLine();
 }
-
+Console.WriteLine();
 Console.WriteLine("TAXES PAID:");
-double sum = 0;
+double total = 0;
 
-foreach(TaxPayer tp in taxPayers)
+foreach(TaxPayer payer in payers)
 {
-    Console.WriteLine(tp.Name + ": $ " + tp.TaxesPaid().ToString("F2", CultureInfo.InvariantCulture));
-    sum = sum + tp.TaxesPaid();
+    total = total + payer.Tax();
+    Console.WriteLine(payer.Name + ": $ " + payer.Tax().ToString("F2", CultureInfo.InvariantCulture));
 }
 Console.WriteLine();
 
-Console.WriteLine("TOTAL TAXES: $ " + sum.ToString("F2", CultureInfo.InvariantCulture));
+Console.WriteLine("TOTAL TAXES: $ " + total.ToString("F2", CultureInfo.InvariantCulture));
 
 
 

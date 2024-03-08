@@ -8,16 +8,20 @@ namespace ExercicioHerancaPolimorfismo02.Entities
 {
     internal class Company : TaxPayer
     {
-        public int EmployeeNumber { get; set; }
+        public int EmployeeCount { get; set; }
 
-        public Company(int employeeNumber, string name, double anualIncome) : base(name, anualIncome)
+        public Company()
         {
-            EmployeeNumber = employeeNumber;
         }
 
-        public override double TaxesPaid()
+        public Company(int employeeCount, string name, double anualIncome): base(name, anualIncome)
         {
-            if(EmployeeNumber > 10)
+            EmployeeCount = employeeCount;
+        }
+
+        public override double Tax()
+        {
+            if (EmployeeCount > 10)
             {
                 return AnualIncome * 0.14;
             }
